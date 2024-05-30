@@ -5,10 +5,10 @@
 </head>
 <body>
     <h1>Search Results</h1>
-    <p>{{ movies|length }} result(s) found</p>
+    <p>{{ recipes|length }} result(s) found</p>
     <ul>
-        {% for movie in movies %}
-        <li>{{ movie[0] }} - {{ movie[2] }} - {{ movie[3] }} - {{ movie[1] }} - {{ movie[4] }} - {{ movie[5] }}</li>
+        {% for recipe in recipes %}
+        <li>{{ recipe['Name'] }} - {{ recipe['Description'] }} - {{ recipe['RecipeIngredientParts'] }}</li>
         {% endfor %}
     </ul>
 </body>
