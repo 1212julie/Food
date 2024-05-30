@@ -8,6 +8,7 @@ db_params = {
     'password': '1212Julie'
 }
 
+
 # Connect to the default 'postgres' database to check for the existence of the 'movies' database
 conn = psycopg2.connect(**db_params, database='postgres')
 conn.autocommit = True  # Enable autocommit mode for database creation
