@@ -1,8 +1,14 @@
 import sqlite3
 import csv
+import psycopg2
 
 def create_tables():
-    conn = sqlite3.connect('food.db')
+    conn = psycopg2.connect(
+        host="localhost",
+        database="food",
+        user="postgres",
+        password="password"  # Change this to your own PostgreSQL master password
+    )
     cursor = conn.cursor()
 
     cursor.execute('''
