@@ -72,8 +72,8 @@ CREATE TABLE Food (
 	Review TEXT
 );
 
-COPY recipes FROM 'recipes.csv' HEADER CSV; 
-COPY reviews FROM 'reviews.csv' HEADER CSV;
+COPY recipes FROM 'recipes_top1000.csv' HEADER CSV; 
+COPY reviews FROM 'reviews_top1000.csv' HEADER CSV;
 
 INSERT INTO Food 
 	SELECT 
