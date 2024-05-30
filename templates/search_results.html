@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    <p>{{ movies|length }} result(s) found</p>
+    <ul>
+        {% for movie in movies %}
+        <li>{{ movie[0] }} - {{ movie[2] }} - {{ movie[3] }} - {{ movie[1] }} - {{ movie[4] }} - {{ movie[5] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
