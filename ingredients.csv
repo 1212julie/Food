@@ -1,5 +1,326 @@
-RecipeId, Ingredient
-1, Meat
-1, Spaghetti
-2, Chicken
-2, Curry
+RecipeId,Ingredient
+1,Spaghetti
+1,Ground Beef
+1,Tomato Sauce
+1,Onions
+1,Garlic
+2,Chicken
+2,Curry Powder
+2,Coconut Milk
+2,Onions
+2,Garlic
+3,Chicken
+3,Peanut Butter
+3,Soy Sauce
+3,Garlic
+3,Ginger
+4,Beef
+4,Bell Peppers
+4,Onions
+4,Garlic
+4,Olive Oil
+5,Broccoli
+5,Cheddar Cheese
+5,Cream of Mushroom Soup
+5,Onions
+5,Breadcrumbs
+6,Pork Tenderloin
+6,Garlic
+6,Rosemary
+6,Olive Oil
+6,Salt
+7,Turkey
+7,Breadcrumbs
+7,Eggs
+7,Onions
+7,Ketchup
+8,Spaghetti
+8,Tomato Sauce
+8,Garlic
+8,Basil
+8,Olive Oil
+9,Ground Beef
+9,Potatoes
+9,Carrots
+9,Onions
+9,Peas
+10,Chicken
+10,Pie Crust
+10,Carrots
+10,Peas
+10,Cream
+11,Rice
+11,Shrimp
+11,Mussels
+11,Saffron
+11,Peas
+12,Lasagna Noodles
+12,Tomato Sauce
+12,Zucchini
+12,Spinach
+12,Ricotta
+13,Pork Chops
+13,Garlic
+13,Thyme
+13,Olive Oil
+13,Salt
+14,Beef
+14,Garlic
+14,Rosemary
+14,Salt
+14,Pepper
+15,Potatoes
+15,Butter
+15,Milk
+15,Salt
+15,Pepper
+16,Mushrooms
+16,Cream Cheese
+16,Parmesan
+16,Garlic
+16,Parsley
+17,Chicken
+17,Parmesan
+17,Tomato Sauce
+17,Mozzarella
+17,Breadcrumbs
+18,Fish
+18,Potatoes
+18,Flour
+18,Eggs
+18,Breadcrumbs
+19,Beef
+19,Kidney Beans
+19,Tomatoes
+19,Onions
+19,Chili Powder
+20,Black Beans
+20,Bread Crumbs
+20,Onions
+20,Garlic
+20,Spices
+21,Rice Paper
+21,Shrimp
+21,Lettuce
+21,Carrots
+21,Mint
+22,Rice Noodles
+22,Shrimp
+22,Peanuts
+22,Bean Sprouts
+22,Lime
+23,Lamb
+23,Potatoes
+23,Carrots
+23,Onions
+23,Lamb Broth
+24,Cornmeal
+24,Flour
+24,Sugar
+24,Milk
+24,Butter
+25,Beef
+25,Potatoes
+25,Carrots
+25,Onions
+25,Beef Broth
+26,Chicken Wings
+26,BBQ Sauce
+26,Honey
+26,Garlic
+26,Paprika
+27,Tofu
+27,Turmeric
+27,Bell Peppers
+27,Onions
+27,Spinach
+28,Eggs
+28,Butter
+28,Milk
+28,Salt
+28,Pepper
+29,Oats
+29,Milk
+29,Cinnamon
+29,Honey
+29,Berries
+30,Strawberries
+30,Blueberries
+30,Banana
+30,Kiwi
+30,Mint
+31,Mango
+31,Yogurt
+31,Honey
+31,Milk
+31,Ice
+32,Brussels Sprouts
+32,Olive Oil
+32,Garlic
+32,Balsamic Vinegar
+32,Salt
+33,Pasta
+33,Basil
+33,Parmesan
+33,Pine Nuts
+33,Garlic
+34,Zucchini
+34,Bell Peppers
+34,Onions
+34,Olive Oil
+34,Garlic
+35,Chicken
+35,Noodles
+35,Carrots
+35,Celery
+35,Chicken Broth
+36,Bread
+36,Eggs
+36,Milk
+36,Cinnamon
+36,Vanilla
+37,Tomato
+37,Cucumber
+37,Feta Cheese
+37,Olives
+37,Red Onion
+38,Pasta
+38,Cheese
+38,Milk
+38,Butter
+38,Flour
+39,Chicken
+39,Bell Peppers
+39,Onions
+39,Tortillas
+39,Spices
+40,Beef
+40,Tortilla
+40,Beans
+40,Cheese
+40,Salsa
+41,Salmon
+41,Lemon
+41,Garlic
+41,Dill
+41,Olive Oil
+42,Pizza Dough
+42,Tomato Sauce
+42,Mozzarella
+42,Basil
+42,Olive Oil
+43,Spaghetti
+43,Eggs
+43,Parmesan
+43,Bacon
+43,Pepper
+44,Chickpeas
+44,Garlic
+44,Parsley
+44,Cumin
+44,Coriander
+45,Chickpeas
+45,Garlic
+45,Tahini
+45,Lemon
+45,Olive Oil
+46,Beef
+46,Mushrooms
+46,Puff Pastry
+46,Eggs
+46,Dijon Mustard
+47,Chicken
+47,Butter
+47,Tomato Sauce
+47,Cream
+47,Spices
+48,Rice
+48,Carrots
+48,Peas
+48,Soy Sauce
+48,Eggs
+49,Bread
+49,Garlic
+49,Butter
+49,Parsley
+49,Parmesan
+50,Flour
+50,Butter
+50,Sugar
+50,Chocolate Chips
+50,Eggs
+51,Carrots
+51,Celery
+51,Onions
+51,Tomato
+51,Garlic
+52,Turkey
+52,Bread
+52,Lettuce
+52,Tomato
+52,Mayonnaise
+88,Arborio Rice
+88,Mushrooms
+88,Parmesan
+88,Chicken Broth
+88,White Wine
+89,Onions
+89,Beef Broth
+89,Gruyere Cheese
+89,Butter
+89,Thyme
+90,Pork Ribs
+90,BBQ Sauce
+90,Brown Sugar
+90,Garlic
+90,Onions
+91,Shrimp
+91,Garlic
+91,Butter
+91,Lemon
+91,Parsley
+92,Eggplant
+92,Tomato Sauce
+92,Mozzarella
+92,Parmesan
+92,Basil
+93,Lamb
+93,Rosemary
+93,Garlic
+93,Olive Oil
+93,Lemon
+94,Tuna
+94,Mayonnaise
+94,Celery
+94,Onions
+94,Lettuce
+95,Chicken
+95,Fettuccine
+95,Parmesan
+95,Cream
+95,Garlic
+96,Clams
+96,Potatoes
+96,Celery
+96,Onions
+96,Cream
+97,Lasagna Noodles
+97,Ground Beef
+97,Ricotta Cheese
+97,Tomato Sauce
+97,Mozzarella
+98,Fish
+98,Tortillas
+98,Cabbage
+98,Sour Cream
+98,Lime
+99,Lettuce
+99,Caesar Dressing
+99,Croutons
+99,Parmesan
+99,Chicken
+100,Flour
+100,Eggs
+100,Milk
+100,Butter
+100,Baking Powder

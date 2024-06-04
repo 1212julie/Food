@@ -1,3 +1,101 @@
 RecipeId,Name,TotalTime,Description,RecipeServings,RecipeInstructions
-1,Spaghetti Bolognese,30 minutes,A classic Italian pasta dish,4,"1. Cook the spaghetti. 2. Prepare the sauce. 3. Mix and serve."
-2,Chicken Curry,45 minutes,A spicy and flavorful dish,4,"1. Cook the chicken. 2. Prepare the curry sauce. 3. Mix and serve."
+1,Spaghetti Bolognese,30 minutes,A classic Italian pasta dish,4,1. Cook the spaghetti. 2. Prepare the sauce. 3. Mix and serve.
+2,Chicken Curry,45 minutes,A spicy and flavorful dish,4,1. Cook the chicken. 2. Prepare the curry sauce. 3. Mix and serve.
+3,Chicken Satay,29 minutes,A delicious recipe for chicken satay.,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+4,Beef Kebabs,55 minutes,A delicious recipe for beef kebabs.,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+5,Broccoli Casserole,63 minutes,A delicious recipe for broccoli casserole.,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+6,Grilled Pork Tenderloin,46 minutes,A delicious recipe for grilled pork tenderloin.,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+7,Turkey Meatloaf,88 minutes,A delicious recipe for turkey meatloaf.,7,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+8,Spaghetti Marinara,67 minutes,A delicious recipe for spaghetti marinara.,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+9,Cottage Pie,42 minutes,A delicious recipe for cottage pie.,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+10,Chicken Pot Pie,89 minutes,A delicious recipe for chicken pot pie.,5,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+11,Seafood Paella,38 minutes,A delicious recipe for seafood paella.,5,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+12,Vegetable Lasagna,56 minutes,A delicious recipe for vegetable lasagna.,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+13,Pork Chops,43 minutes,A delicious recipe for pork chops.,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+14,Roast Beef,21 minutes,A delicious recipe for roast beef.,7,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+15,Mashed Potatoes,64 minutes,A delicious recipe for mashed potatoes.,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+16,Stuffed Mushrooms,59 minutes,A delicious recipe for stuffed mushrooms.,5,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+17,Chicken Parmesan,71 minutes,A delicious recipe for chicken parmesan.,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+18,Fish and Chips,20 minutes,A delicious recipe for fish and chips.,4,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+19,Chili Con Carne,62 minutes,A delicious recipe for chili con carne.,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+20,Veggie Burger,58 minutes,A delicious recipe for veggie burger.,4,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+21,Spring Rolls,22 minutes,A delicious recipe for spring rolls.,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+22,Pad Thai,45 minutes,A delicious recipe for pad thai.,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+23,Lamb Stew,52 minutes,A delicious recipe for lamb stew.,7,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+24,Cornbread,68 minutes,A delicious recipe for cornbread.,4,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+25,Beef Stew,74 minutes,A delicious recipe for beef stew.,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+26,Chicken Wings,54 minutes,A delicious recipe for chicken wings.,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+27,Tofu Scramble,78 minutes,A delicious recipe for tofu scramble.,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+28,Scrambled Eggs,81 minutes,A delicious recipe for scrambled eggs.,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+29,Oatmeal,17 minutes,A delicious recipe for oatmeal.,5,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+30,Fruit Salad,26 minutes,A delicious recipe for fruit salad.,4,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+31,Mango Smoothie,67 minutes,A delicious recipe for mango smoothie.,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+32,Roasted Brussels Sprouts,27 minutes,A delicious recipe for roasted brussels sprouts.,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+33,Pesto Pasta,84 minutes,A delicious recipe for pesto pasta.,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+34,Grilled Vegetables,71 minutes,A delicious recipe for grilled vegetables.,7,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+35,Chicken Noodle Soup,75 minutes,A delicious recipe for chicken noodle soup.,4,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+36,French Toast,73 minutes,A delicious recipe for french toast.,4,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+37,Greek Salad,31 minutes,A delicious recipe for greek salad.,5,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+38,Mac and Cheese,18 minutes,A delicious recipe for mac and cheese.,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+39,Chicken Fajitas,67 minutes,A delicious recipe for chicken fajitas.,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+40,Beef Burrito,31 minutes,A delicious recipe for beef burrito.,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+41,Grilled Salmon,58 minutes,A delicious recipe for grilled salmon.,"367g, 477g, 322g","BBQ Sauce, Mayonnaise, Wine",4.0,134,5,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+42,Margherita Pizza,55 minutes,A delicious recipe for margherita pizza.,"187g, 198g, 316g","Beef, Shrimp, Carrots",3.3,125,7,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+43,Spaghetti Carbonara,49 minutes,A delicious recipe for spaghetti carbonara.,"252g, 376g, 382g","Croutons, Onions, Lettuce",4.7,466,7,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+44,Falafel,33 minutes,A delicious recipe for falafel.,"415g, 115g, 164g","Chicken Broth, Soy Sauce, Tuna",5.0,73,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+45,Hummus,89 minutes,A delicious recipe for hummus.,"313g, 305g, 422g","Clams, Mushrooms, Pasta",3.9,338,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+46,Beef Wellington,77 minutes,A delicious recipe for beef wellington.,"181g, 277g, 114g","Fish, Soy Sauce, Cheese",4.8,251,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+47,Butter Chicken,20 minutes,A delicious recipe for butter chicken.,"124g, 260g, 498g","Tortillas, Onions, Mayonnaise",4.7,444,4,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+48,Fried Rice,61 minutes,A delicious recipe for fried rice.,"163g, 250g, 388g","Tuna, Chicken Broth, Croutons",4.9,170,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+49,Garlic Bread,82 minutes,A delicious recipe for garlic bread.,"276g, 198g, 174g","Chicken Broth, Lettuce, Mushrooms",4.9,349,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+50,Chocolate Chip Cookies,53 minutes,A delicious recipe for chocolate chip cookies.,"469g, 440g, 403g","Beef, Garlic, Butter",3.6,74,4,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+51,Vegetable Soup,66 minutes,A delicious recipe for vegetable soup.,"260g, 443g, 415g","Lettuce, Chicken Broth, Tuna",4.3,403,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+52,Turkey Sandwich,87 minutes,A delicious recipe for turkey sandwich.,"106g, 486g, 304g","Croutons, Fish, Lettuce",4.5,382,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+53,Pumpkin Pie,35 minutes,A delicious recipe for pumpkin pie.,"100g, 118g, 348g","Chicken Broth, Carrots, Cheese",4.4,91,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+54,Pecan Pie,59 minutes,A delicious recipe for pecan pie.,"192g, 327g, 103g","Beef, Mushrooms, Parmesan",3.3,286,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+55,Lemon Tart,18 minutes,A delicious recipe for lemon tart.,"333g, 102g, 400g","Mayonnaise, Caesar Dressing, Parmesan",4.5,78,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+56,Blueberry Muffins,84 minutes,A delicious recipe for blueberry muffins.,"459g, 128g, 368g","Tomatoes, Mushrooms, Butter",3.4,11,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+57,Apple Pie,68 minutes,A delicious recipe for apple pie.,"280g, 464g, 494g","Mayonnaise, Beef, Tuna",3.1,235,4,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+58,Banana Bread,62 minutes,A delicious recipe for banana bread.,"146g, 266g, 101g","Bell Peppers, Cream, Wine",4.9,228,5,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+59,Chocolate Cake,72 minutes,A delicious recipe for chocolate cake.,"215g, 151g, 186g","Cheese, Lamb, Rice",3.6,375,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+60,Pasta Carbonara,83 minutes,A delicious recipe for pasta carbonara.,"385g, 299g, 117g","Lettuce, Clams, Eggplant",4.9,473,7,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+61,Vegetable Curry,15 minutes,A delicious recipe for vegetable curry.,"145g, 499g, 155g","Eggplant, Tomatoes, Pancake Mix",3.4,56,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+62,Steak Fajitas,42 minutes,A delicious recipe for steak fajitas.,"351g, 456g, 324g","Garlic, BBQ Sauce, Fish",3.6,41,4,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+63,Spinach Pie,86 minutes,A delicious recipe for spinach pie.,"230g, 269g, 228g","Caesar Dressing, Chicken Broth, Lettuce",4.9,88,7,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+64,Cheeseburger,89 minutes,A delicious recipe for cheeseburger.,"478g, 313g, 275g","Garlic, Shrimp, Clams",3.6,227,5,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+65,Roast Chicken,83 minutes,A delicious recipe for roast chicken.,"255g, 253g, 467g","Parmesan, Cheese, Soy Sauce",4.6,392,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+66,Egg Salad,66 minutes,A delicious recipe for egg salad.,"322g, 328g, 342g","Wine, Eggplant, Mayonnaise",4.2,50,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+67,Salmon Fillet,86 minutes,A delicious recipe for salmon fillet.,"229g, 263g, 409g","Garlic, Rice, Lamb",4.8,441,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+68,Avocado Toast,71 minutes,A delicious recipe for avocado toast.,"424g, 369g, 481g","Rice, Chicken Broth, Bell Peppers",4.1,338,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+69,Lentil Soup,68 minutes,A delicious recipe for lentil soup.,"436g, 294g, 296g","Fish, Rice, Caesar Dressing",4.9,304,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+70,Goulash,89 minutes,A delicious recipe for goulash.,"138g, 357g, 170g","Wine, Chicken Broth, Butter",4.8,276,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+71,Tomato Soup,56 minutes,A delicious recipe for tomato soup.,"252g, 306g, 308g","Eggplant, Carrots, Clams",3.3,282,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+72,Garlic Shrimp,33 minutes,A delicious recipe for garlic shrimp.,"221g, 346g, 115g","Cheese, Pancake Mix, BBQ Sauce",3.8,415,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+73,Vegetarian Pizza,87 minutes,A delicious recipe for vegetarian pizza.,"339g, 137g, 429g","Caesar Dressing, Croutons, Rice",3.8,132,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+74,Chicken Quesadilla,41 minutes,A delicious recipe for chicken quesadilla.,"333g, 484g, 102g","Pancake Mix, Bell Peppers, Parmesan",4.2,124,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+75,Beef Tacos,19 minutes,A delicious recipe for beef tacos.,"481g, 169g, 427g","Croutons, Shrimp, Mushrooms",4.4,409,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+76,Tofu Stir Fry,28 minutes,A delicious recipe for tofu stir fry.,"459g, 159g, 235g","Chicken Broth, Cheese, Butter",4.9,375,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+77,Baked Ziti,64 minutes,A delicious recipe for baked ziti.,"401g, 135g, 298g","Wine, Cream, Garlic",4.3,310,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+78,Quiche Lorraine,43 minutes,A delicious recipe for quiche lorraine.,"319g, 302g, 410g","Beef, Soy Sauce, Lettuce",5.0,88,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+79,Fettuccine Alfredo,27 minutes,A delicious recipe for fettuccine alfredo.,"310g, 215g, 497g","Mushrooms, Rice, Lettuce",4.7,60,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+80,Chicken Teriyaki,36 minutes,A delicious recipe for chicken teriyaki.,"131g, 103g, 322g","Cream, Mayonnaise, Tomatoes",3.2,42,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+81,Minestrone Soup,54 minutes,A delicious recipe for minestrone soup.,"273g, 310g, 147g","Tomatoes, Shrimp, Lamb",4.3,425,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+82,Pulled Pork Sandwich,63 minutes,A delicious recipe for pulled pork sandwich.,"402g, 358g, 194g","Beef, Shrimp, Mayonnaise",3.9,26,4,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+83,Beet Salad,87 minutes,A delicious recipe for beet salad.,"269g, 109g, 141g","Tomatoes, Pancake Mix, Eggplant",3.1,146,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+84,Pumpkin Soup,40 minutes,A delicious recipe for pumpkin soup.,"119g, 342g, 357g","Bell Peppers, Parmesan, Wine",3.3,56,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+85,Grilled Cheese Sandwich,34 minutes,A delicious recipe for grilled cheese sandwich.,"444g, 417g, 229g","Parmesan, Fish, Croutons",4.5,39,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+86,Stuffed Peppers,41 minutes,A delicious recipe for stuffed peppers.,"476g, 149g, 139g","Carrots, Pasta, BBQ Sauce",3.7,96,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+87,Spicy Meatballs,18 minutes,A delicious recipe for spicy meatballs.,"220g, 208g, 180g","Cream, BBQ Sauce, Clams",4.9,264,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+88,Mushroom Risotto,28 minutes,A delicious recipe for mushroom risotto.,"227g, 218g, 285g","Lettuce, Garlic, Carrots",3.3,296,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+89,French Onion Soup,78 minutes,A delicious recipe for french onion soup.,"332g, 466g, 109g","Caesar Dressing, BBQ Sauce, Butter",4.7,449,4,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+90,BBQ Ribs,36 minutes,A delicious recipe for bbq ribs.,"372g, 137g, 201g","Cheese, Lettuce, Soy Sauce",3.8,118,7,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+91,Shrimp Scampi,71 minutes,A delicious recipe for shrimp scampi.,"257g, 193g, 102g","Butter, Pasta, Chicken Broth",4.6,61,5,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+92,Eggplant Parmesan,23 minutes,A delicious recipe for eggplant parmesan.,"190g, 235g, 146g","Shrimp, BBQ Sauce, Garlic",3.7,215,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+93,Lamb Chops,54 minutes,A delicious recipe for lamb chops.,"304g, 282g, 400g","Tuna, Pasta, Shrimp",4.2,15,4,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+94,Tuna Salad,62 minutes,A delicious recipe for tuna salad.,"297g, 211g, 268g","Butter, Pasta, Parmesan",4.7,18,8,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+95,Chicken Alfredo,71 minutes,A delicious recipe for chicken alfredo.,"441g, 459g, 499g","Mayonnaise, Cream, Tuna",3.6,266,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+96,Clam Chowder,26 minutes,A delicious recipe for clam chowder.,"465g, 309g, 286g","Rice, Pasta, Garlic",3.6,399,5,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+97,Lasagna,56 minutes,A delicious recipe for lasagna.,"365g, 118g, 158g","Tortillas, Shrimp, Rice",4.5,374,5,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+98,Fish Tacos,18 minutes,A delicious recipe for fish tacos.,"301g, 442g, 342g","Butter, Rice, Soy Sauce",3.9,455,7,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+99,Caesar Salad,16 minutes,A delicious recipe for caesar salad.,"199g, 461g, 296g","Soy Sauce, Clams, Tuna",3.3,486,7,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+100,Pancakes,44 minutes,A delicious recipe for pancakes.,"108g, 438g, 125g","Mushrooms, Caesar Dressing, Lettuce",4.0,10,2,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
