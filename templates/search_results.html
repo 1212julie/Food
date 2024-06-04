@@ -19,6 +19,12 @@
                     <p><strong>Ingredients:</strong> {{ recipe[6]}}</p>
                     <p><strong>Average Review Rating:</strong> {{ recipe[7]|round(2) }}</p>
                     <p><strong>Review Count:</strong> {{ recipe[8] }}</p>
+                    <p><strong>Reviews:</strong></p>
+                    <ul>
+                        {% for review in recipe[9].split('; ') %}
+                            <li>{{ review }}</li>
+                        {% endfor %}
+                    </ul>
                 </li>
             {% endfor %}
         </ul>
