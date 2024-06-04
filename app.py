@@ -1,4 +1,4 @@
-
+import init_db
 from flask import Flask, render_template, request
 import psycopg2
 
@@ -82,4 +82,5 @@ def search_recipes():
         conn.close()
 
 if __name__ == '__main__':
+
     app.run(debug=True)
