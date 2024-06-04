@@ -60,7 +60,7 @@ def search_recipes():
             values.append(f"%{ingredient}%")
 
         if title:
-            conditions.append("r.Name ILIKE %s")
+            conditions.append("r.Name SIMILAR TO %s")
             values.append(f"%{title}%")
 
         if min_rating:

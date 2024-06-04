@@ -1,6 +1,7 @@
 import psycopg2
 import pandas as pd
 import csv
+import re
 
 # Database connection parameters
 db_params = {
@@ -67,6 +68,8 @@ ingredients_df = pd.read_csv('ingredients.csv')
 
 # Insert data into recipes table
 for index, row in recipes_df.iterrows():
+    # Cahnge Name column so it always starts with a capital letter
+    row['Name'] = re.sub(r'^[a-z]', lambda x: x.group(0).upper(), row['Name'])
     cursor.execute('''
     INSERT INTO recipes (RecipeId, Name, TotalTime, Description, RecipeServings, RecipeInstructions)
     VALUES (%s, %s, %s, %s, %s, %s)

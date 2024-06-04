@@ -1,7 +1,7 @@
 RecipeId,Name,TotalTime,Description,RecipeServings,RecipeInstructions
 1,Spaghetti Bolognese,30 minutes,A classic Italian pasta dish,4,1. Cook the spaghetti. 2. Prepare the sauce. 3. Mix and serve.
-2,Chicken Curry,45 minutes,A spicy and flavorful dish,4,1. Cook the chicken. 2. Prepare the curry sauce. 3. Mix and serve.
-3,Chicken Satay,29 minutes,A delicious recipe for chicken satay.,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
+2,chicken Curry,45 minutes,A spicy and flavorful dish,4,1. Cook the chicken. 2. Prepare the curry sauce. 3. Mix and serve.
+3,chicken Satay,29 minutes,A delicious recipe for chicken satay.,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
 4,Beef Kebabs,55 minutes,A delicious recipe for beef kebabs.,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
 5,Broccoli Casserole,63 minutes,A delicious recipe for broccoli casserole.,6,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
 6,Grilled Pork Tenderloin,46 minutes,A delicious recipe for grilled pork tenderloin.,3,1. Prepare ingredients. 2. Cook as needed. 3. Serve and enjoy.
