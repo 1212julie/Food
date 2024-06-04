@@ -18,7 +18,9 @@ How to run and use our app:
         Minimum Average Rating: 3.5
 
 Search Results
+
 Chicken Curry
+
 Total Time: 45 minutes
 
 Description: A spicy and flavorful dish
