@@ -9,152 +9,86 @@ db_params = {
     'password': '1212Julie'
 }
 
-# Connect to SQLite database (or create it if it doesn't exist)
+# Connect to the default 'postgres' database to check for the existence of the 'Food' database
 conn = psycopg2.connect(**db_params, database='postgres')
-conn.autocommit = True
-cursor = conn.cursor()
+conn.autocommit = True  # Enable autocommit mode for database creation
+cur = conn.cursor()
 
-#Check if the 'food' database exists
-cursor.execute("SELECT 1 FROM pg_catalog.pg_database WHERE datname = 'food';")
-exists = cursor.fetchone()
+# Check if the 'Food' database exists
+cur.execute("SELECT 1 FROM pg_catalog.pg_database WHERE datname = 'Food'")
+exists = cur.fetchone()
 
-# If not exist then create the 'food' database
+# If the database does not exist, create it
 if not exists:
-    cursor.execute("CREATE DATABASE food;")
+    cur.execute('CREATE DATABASE Food')
 
+cur.close()
 conn.close()
-cursor.close()
 
-# Connect to the 'food' database
-conn = psycopg2.connect(**db_params, database='food')
+# Now connect to the newly created or existing 'Food' database
+conn = psycopg2.connect(**db_params, database='Food')
 cursor = conn.cursor()
 
-# Drop tables if they exist
-cursor.execute("DROP TABLE IF EXISTS Recipes;")
-cursor.execute("DROP TABLE IF EXISTS Reviews;")
-cursor.execute("DROP TABLE IF EXISTS Food;")
+# Drop tables if they exist, with CASCADE to handle dependencies
+cursor.execute("DROP TABLE IF EXISTS reviews CASCADE;")
+cursor.execute("DROP TABLE IF EXISTS ingredients CASCADE;")
+cursor.execute("DROP TABLE IF EXISTS recipes CASCADE;")
 
 # Create recipes table
-cursor.execute('''CREATE TABLE Recipes (
-    RecipeId INT, 
+cursor.execute('''CREATE TABLE recipes (
+    RecipeId INT PRIMARY KEY, 
     Name TEXT, 
-    AuthorId INT, 
-    AuthorName TEXT, 
-    CookTime TEXT,
-    PrepTime TEXT,
     TotalTime TEXT,
-    DatePublished TEXT,
     Description TEXT,
-    Images TEXT,
-    RecipeCategory TEXT,
-    Keywords TEXT,
-    RecipeIngredientQuantities TEXT,
-    RecipeIngredientParts TEXT,
-    AggregatedRating TEXT,
-    ReviewCount TEXT,
-    Calories TEXT,
-    FatContent TEXT,
-    SaturatedFatContent TEXT,
-    CholesterolContent TEXT,
-    SodiumContent TEXT,
-    CarbohydrateContent TEXT,
-    FiberContent TEXT,
-    SugarContent TEXT,
-    ProteinContent TEXT,
-    RecipeServings TEXT,
-    RecipeYield TEXT,
+    RecipeServings INT,
     RecipeInstructions TEXT
 );''')
 
 # Create reviews table
-cursor.execute('''CREATE TABLE Reviews (
-    ReviewId INT,
+cursor.execute('''CREATE TABLE reviews (
+    ReviewId INT PRIMARY KEY,
     RecipeId INT,
-    AuthorId INT,
-    AuthorName TEXT,
     Rating INT,
     Review TEXT,
-    DateSubmitted TEXT,
-    DateModified TEXT
+    FOREIGN KEY (RecipeId) REFERENCES recipes (RecipeId)
 );''')
 
-# Create Food table
-cursor.execute('''CREATE TABLE Food (
-    RecipeId INT, 
-    Name TEXT, 
-    AuthorId INT, 
-    AuthorName TEXT, 
-    CookTime TEXT,
-    PrepTime TEXT,
-    TotalTime TEXT,
-    Description TEXT,
-    Images TEXT,
-    RecipeCategory TEXT,
-    Keywords TEXT,
-    RecipeIngredientQuantities TEXT,
-    RecipeIngredientParts TEXT,
-    AggregatedRating TEXT,
-    ReviewCount TEXT,
-    RecipeServings TEXT,
-    RecipeInstructions TEXT,
-    ReviewId INT,
-    recipeId_review INT,
-    authorId_review INT,
-    authorName_review TEXT,
-    Rating INT,
-    Review TEXT
+# Create ingredients table
+cursor.execute('''CREATE TABLE ingredients (
+    RecipeId INT,
+    Ingredient TEXT,
+    FOREIGN KEY (RecipeId) REFERENCES recipes (RecipeId)
 );''')
 
 # Load data from CSV files into pandas DataFrames
-recipes_df = pd.read_csv('recipes_top1000.csv')
-reviews_df = pd.read_csv('reviews_top1000.csv')
+recipes_df = pd.read_csv('recipes.csv')
+reviews_df = pd.read_csv('reviews.csv')
+ingredients_df = pd.read_csv('ingredients.csv')
 
 # Insert data into recipes table
-recipes_df.to_sql('Recipes', conn, if_exists='append', index=False)
+for index, row in recipes_df.iterrows():
+    cursor.execute('''
+    INSERT INTO recipes (RecipeId, Name, TotalTime, Description, RecipeServings, RecipeInstructions)
+    VALUES (%s, %s, %s, %s, %s, %s)
+    ''', tuple(row))
 
 # Insert data into reviews table
-reviews_df.to_sql('Reviews', conn, if_exists='append', index=False)
+for index, row in reviews_df.iterrows():
+    cursor.execute('''
+    INSERT INTO reviews (ReviewId, RecipeId, Rating, Review)
+    VALUES (%s, %s, %s, %s)
+    ''', tuple(row))
 
-# Insert data into Food table by joining recipes and reviews
-cursor.execute('''
-INSERT INTO Food 
-    SELECT 
-        rec.RecipeId, 
-        rec.Name, 
-        rec.AuthorId, 
-        rec.AuthorName, 
-        rec.CookTime,
-        rec.PrepTime,
-        rec.TotalTime,
-        rec.Description,
-        rec.Images,
-        rec.RecipeCategory,
-        rec.Keywords,
-        rec.RecipeIngredientQuantities,
-        rec.RecipeIngredientParts,
-        rec.AggregatedRating,
-        rec.ReviewCount,
-        rec.RecipeServings,
-        rec.RecipeInstructions,
-        rev.ReviewId,
-        rev.RecipeId as recipeId_review,
-        rev.AuthorId as authorId_review,
-        rev.AuthorName as authorName_review,
-        rev.Rating,
-        rev.Review
-    FROM Recipes as rec
-    LEFT JOIN Reviews as rev 
-    ON rec.RecipeId = rev.RecipeId;
-''')
+# Insert data into ingredients table
+for index, row in ingredients_df.iterrows():
+    cursor.execute('''
+    INSERT INTO ingredients (RecipeId, Ingredient)
+    VALUES (%s, %s)
+    ''', tuple(row))
 
 # Commit the transaction
 conn.commit()
 
-# Select all data from Food table and print it
-cursor.execute("SELECT * FROM Food;")
-all_rows = cursor.fetchall()
-for row in all_rows:
-    print(row)
-
-# Close the connection
+# Close the cursor and connection
+cursor.close()
 conn.close()
