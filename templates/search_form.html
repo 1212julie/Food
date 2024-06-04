@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Recipe Search</title>
 </head>
 <body>
-    <section class="mt-2 jumbotron text-center"> 
-        <div class="container">
-            <h1 class="mb-5 jumbotron-heading">Recipe Search</h1>   
-        </div>
-    </section>
-    <div class="container text-right">
-        <form action="/search" method="POST">
-            <div class="row">
-                <div class="col">
-                    <label for="ingredients">Ingredients:</label>
-                    <input type="text" id="ingredients" name="ingredients">
-                </div>
-                <div class="col">
-                    <input type="submit" value="Search">
-                </div>
-            </div>
-        </form>
-    </div>
+    <h1>Search for Recipes</h1>
+    <form action="/search" method="post">
+        <label for="title">Recipe Title:</label>
+        <input type="text" id="title" name="title"><br>
+
+        <label for="ingredient">Ingredient:</label>
+        <input type="text" id="ingredient" name="ingredient"><br>
+
+        <label for="min_rating">Minimum Rating:</label>
+        <input type="number" step="0.1" id="min_rating" name="min_rating"><br>
+
+        <input type="submit" value="Search">
+    </form>
 </body>
 </html>

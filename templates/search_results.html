@@ -5,11 +5,23 @@
 </head>
 <body>
     <h1>Search Results</h1>
-    <p>{{ recipes|length }} result(s) found</p>
-    <ul>
-        {% for recipe in recipes %}
-        <li>{{ recipe['Name'] }} - {{ recipe['Description'] }} - {{ recipe['RecipeIngredientParts'] }}</li>
-        {% endfor %}
-    </ul>
+    {% if length == 0 %}
+        <p>No recipes found.</p>
+    {% else %}
+        <ul>
+            {% for recipe in recipes %}
+                <li>
+                    <h2>{{ recipe[1] }}</h2>
+                    <p><strong>Total Time:</strong> {{ recipe[2] }}</p>
+                    <p><strong>Description:</strong> {{ recipe[3] }}</p>
+                    <p><strong>Servings:</strong> {{ recipe[4] }}</p>
+                    <p><strong>Instructions:</strong> {{ recipe[5] }}</p>
+                    <p><strong>Ingredients:</strong> {{ recipe[6]}}</p>
+                    <p><strong>Average Review Rating:</strong> {{ recipe[7]|round(2) }}</p>
+                    <p><strong>Review Count:</strong> {{ recipe[8] }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
 </body>
 </html>
