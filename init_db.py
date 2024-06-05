@@ -21,7 +21,7 @@ exists = cur.fetchone()
 
 # If the database does not exist, create it
 if not exists:
-    cur.execute('CREATE DATABASE Food')
+    cur.execute("CREATE DATABASE 'Food'")
 
 cur.close()
 conn.close()
