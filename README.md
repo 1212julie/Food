@@ -3,7 +3,6 @@
 Our DIS-project is a web-app for searching in a recipe database. 
 
 How to run and use our app:
-10. Tip: recipe title should always start with a capital letter.
 1. In line 12 in app.py change the password to your own PostgreSQL master password and save changes.
 2. In line 10 in init_db.py change the password to your own PostgreSQL master password and save changes.
 3. Now open a terminal and navigate to this folder.
